@@ -1,4 +1,4 @@
-<script>
+
       function resetFields() {
         document.getElementById("description").value = "";
         document.getElementById("amount").value = "";
@@ -60,4 +60,4 @@
         updateSummary(entries);
       }
       document.addEventListener("DOMContentLoaded", displayEntries);
-    </script>
+    
